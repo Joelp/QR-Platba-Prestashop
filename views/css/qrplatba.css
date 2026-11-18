@@ -1,0 +1,20 @@
+/* QR Platba front-office styling */
+.qrplatba-box { margin: 1rem 0; }
+.qrplatba-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+.qrplatba-qr { text-align: center; flex: 0 0 auto; }
+.qrplatba-qr img {
+    max-width: 220px;
+    height: auto;
+    border: 1px solid #e5e5e5;
+    padding: 6px;
+    background: #fff;
+}
+.qrplatba-hint { font-size: .85rem; color: #666; margin-top: .4rem; }
+.qrplatba-details { flex: 1 1 320px; }
+.qrplatba-details th { white-space: nowrap; padding-right: 1rem; text-align: left; }
+.qrplatba-spayd code { word-break: break-all; }

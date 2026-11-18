@@ -1,0 +1,29 @@
+{
+    "name": "joelp/qrplatba",
+    "description": "Czech QR Platba (SPAYD) bank-transfer payment module for PrestaShop 9",
+    "license": "MIT",
+    "type": "prestashop-module",
+    "authors": [
+        {
+            "name": "Joelp",
+            "email": "joelp@email.cz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Joelp\\QrPlatba\\": "classes/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "rikudou/czqrpayment": "^5.3",
+        "endroid/qr-code": "^5.1"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "prepend-autoloader": false,
+        "allow-plugins": {
+            "endroid/installer": false
+        }
+    }
+}
